@@ -194,20 +194,24 @@ header nav a {
 }
 
  .container .boxTextTop section{
+	display:flex;
 	width: 49%;
-	display: inline-block;
+	flex-wrap: wrap;
 	margin-top: 35px;
 	margin-bottom: 35px;
 }
 
 .container .boxTextBottom section{
+display:flex;
+flex-wrap: wrap;
 width: 33%;
-display: inline-block;	
 margin-top: 35px;
 margin-bottom: 35px;
 }
 
 .contact-section {
+	display:flex;
+	flex-direction: column;
 	border-top: 1px solid black;
 	padding-top: 35px;
 }
