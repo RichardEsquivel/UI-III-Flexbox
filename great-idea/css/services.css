@@ -67,10 +67,10 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container {
-    display: flex;
+	display:flex;
 	flex-wrap: wrap;
 	width: 900px;
-	margin: auto;
+	
 }
 
 header nav {
@@ -108,31 +108,42 @@ header nav a {
 .services {
 	display: flex;
 	flex-direction: column;
-	width: 100%;	
+	width: 100%;
+	border-bottom: 1px solid black;
+	padding-bottom: 35px;
+	margin-bottom: 35px;	
 }
 
 .services h1{
 	font-size:25px;
 }
 
-section {
+ {
 	border-top: 1px solid black;
 	padding-top: 35px;
 	margin-top: 35px;
-	border-bottom: 2px solid black;
-	padding-bottom: 35px;
-	margin-bottom: 35px;
+
 }
 
-.flexwidth50 {
+.container .flexwidth50 section{
 	display:flex;
+	flex-wrap: wrap;
 	width: 50%;
+
+
 }
 
-.marginbox {
-	margin:10px;
+.container .marginbox {
+	margin: 20px;
+
 }
 
-.paddingbox {
-	padding: 10px;
+.container .paddingbox {
+	padding: 20px;
 }
+
+.container .borderboxes {
+	border: 1px solid black;
+	box-shadow: 1px 1px 10px black;
+}
+
