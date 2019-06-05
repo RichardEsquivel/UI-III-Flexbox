@@ -108,12 +108,31 @@ header nav a {
 .services {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	border-bottom: 1px solid black;
-	padding-bottom: 35px;
-	margin-bottom: 35px;
+	width: 100%;	
 }
 
 .services h1{
 	font-size:25px;
+}
+
+section {
+	border-top: 1px solid black;
+	padding-top: 35px;
+	margin-top: 35px;
+	border-bottom: 2px solid black;
+	padding-bottom: 35px;
+	margin-bottom: 35px;
+}
+
+.flexwidth50 {
+	display:flex;
+	width: 50%;
+}
+
+.marginbox {
+	margin:10px;
+}
+
+.paddingbox {
+	padding: 10px;
 }
