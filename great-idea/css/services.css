@@ -118,17 +118,12 @@ header nav a {
 	font-size:25px;
 }
 
- {
-	border-top: 1px solid black;
-	padding-top: 35px;
-	margin-top: 35px;
-
-}
 
 .container .flexwidth50 {
 	
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: space-between;
 	width: 47.5%;
 	padding: 20px;
 	margin: 10px;
@@ -174,8 +169,10 @@ header nav a {
 	width: 40%;
 }
 
-.factServices li{
+li{
 	list-style-type: square;
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 
