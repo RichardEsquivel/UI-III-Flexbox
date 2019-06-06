@@ -138,6 +138,7 @@ header nav a {
 .flexwidth50 button {
 		width: 140px;
 		border: 1.10px solid black;
+		border-radius: 4px;
 		background-color: white;
 		color: black;
 		margin-top: 20px;
@@ -173,8 +174,8 @@ header nav a {
 	width: 40%;
 }
 
-.factServices ul {
-	list-style: square;
+.factServices li{
+	list-style-type: square;
 }
 
 
